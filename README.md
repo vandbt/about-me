@@ -1,4 +1,10 @@
-# AngularBootstrapAboutMe
+# About Me (built with Angular Bootstrap)
+This project is About Me(self-introduction) angular + bootstrap application.
+
+- [see on-line  https://vandbt.github.io/about-me/](https://vandbt.github.io/about-me/)
+- [My Github https://github.com/vandbt](https://github.com/vandbt)
+- [My Gist writings https://gist.github.com/vandbt](https://gist.github.com/vandbt)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
 
