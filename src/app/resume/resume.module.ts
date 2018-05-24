@@ -8,6 +8,8 @@ import { InterestsComponent } from "./interests/interests.component";
 import { AwardsComponent } from "./awards/awards.component";
 import { ResumeNavComponent } from "./resume-nav/resume-nav.component";
 import { DefaultComponent } from './default/default.component';
+import { SkillService } from './services/skill.service';
+import { KnowledgeService } from './services/knowledge.service';
 
 @NgModule({
   imports: [CommonModule],
@@ -23,6 +25,7 @@ import { DefaultComponent } from './default/default.component';
   ],
   exports: [
     DefaultComponent
-  ]
+  ],
+  providers: [SkillService, KnowledgeService]
 })
 export class ResumeModule {}

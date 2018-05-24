@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Skill } from '../../models/skill';
+import { Skill, Knowledge } from '../../models/skill';
 import { SKILLS } from '../../models/skills-data';
 import { KNOWLEDGES } from '../../models/knowledges-data';
+import { SkillService } from '../services/skill.service';
+import { KnowledgeService } from '../services/knowledge.service';
 
 @Component({
   selector: 'app-skills',
@@ -10,13 +12,24 @@ import { KNOWLEDGES } from '../../models/knowledges-data';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
+  skills: Skill[];
+  knowledges: Knowledge[];
 
-  skills = SKILLS;
-  knowledges = KNOWLEDGES;
+  getSkills(): void {
+    this.skillService.getItems()
+      .subscribe(skills => this.skills = skills);
+  }
+  getKnowledges(): void {
+    this.knowledgeService.getItems()
+      .subscribe(knowledges => this.knowledges = knowledges);
+  }
 
-  constructor() { }
+
+  constructor(private skillService: SkillService, private knowledgeService: KnowledgeService) { }
 
   ngOnInit() {
+    this.getSkills();
+    this.getKnowledges();
   }
 
 }
