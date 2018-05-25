@@ -2,7 +2,7 @@ import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { AboutComponent } from "./about/about.component";
 import { ExperienceComponent } from "./experience/experience.component";
-import { EducactionComponent } from "./educaction/educaction.component";
+import { EducationComponent } from "./education/education.component";
 import { SkillsComponent } from "./skills/skills.component";
 import { InterestsComponent } from "./interests/interests.component";
 import { AwardsComponent } from "./awards/awards.component";
@@ -16,7 +16,7 @@ import { KnowledgeService } from './services/knowledge.service';
   declarations: [
     AboutComponent,
     ExperienceComponent,
-    EducactionComponent,
+    EducationComponent,
     SkillsComponent,
     InterestsComponent,
     AwardsComponent,
