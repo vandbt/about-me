@@ -5,14 +5,14 @@ export class InMemoryDataService implements InMemoryDbService {
     const skills = [
       { name: "Typescript, Javascript, HTML5, CSS, C#.NET", level: 100 },
       { name: "Angular, AngularJS, jQuery, gulp", level: 100 },
-      { name: "Node, Express, ASP.NET, AWS", level: 100 },
+      { name: "Node, Express, ASP.NET, PHP, AWS", level: 100 },
       {
-        name: "MongoDB, MS SQL Server , SQL Query, Entity Framework, DB 모델링",
+        name: "MongoDB, MS SQL Server, Entity Framework, DB 모델링",
         level: 100
       },
       {
         name:
-          "Git, Bitbucket, SVN, CI (Travis CI, Jenkins), Docker, Elasticsearch",
+          "git, gerrit, Bitbucket, SVN, CI (Travis CI, Jenkins), Docker, Elasticsearch",
         level: 100
       },
       { name: "CodeBeamer ALM, Jira, Confluence, Redmine", level: 100 }
@@ -29,7 +29,7 @@ export class InMemoryDataService implements InMemoryDbService {
         level: 100
       },
       {
-        name: "소셜네트워크, 웹서비스, e-Commerce, 지식 정보 서비스 기반 지식",
+        name: "소셜네트워크, 웹서비스, 온라인-커머스, 지식 정보 서비스 기반 지식",
         level: 100
       },
       { name: "Agile Development", level: 100 }
