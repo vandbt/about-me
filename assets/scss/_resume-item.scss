@@ -27,6 +27,14 @@ section.resume-section {
   }
 }
 
+.project-summary {
+  font-weight: 500;
+  @include heading-font;
+  font-size: 1.35rem;
+  color: $gray-700;
+  margin-bottom: 1rem;
+}
+
 ul {
   li.resume-list-item {
     margin-bottom: 1rem;
