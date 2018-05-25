@@ -37,7 +37,7 @@ jQuery(function () {
     });
 
     // enable bootstrap tooltip
-    $('[data-toggle="tooltip"]').tooltip();
+    // $('[data-toggle="tooltip"]').tooltip();
 
   })(jQuery);
 

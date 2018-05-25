@@ -1,10 +1,12 @@
 # About Me (built with Angular Bootstrap)
+
 This project is About Me(self-introduction) angular + bootstrap application.
+
+![about me cover](https://github.com/vandbt/about-me/blob/master/about-me-cover.png)
 
 - [see on-line  https://vandbt.github.io/about-me/](https://vandbt.github.io/about-me/)
 - [My Github https://github.com/vandbt](https://github.com/vandbt)
 - [My Gist writings https://gist.github.com/vandbt](https://gist.github.com/vandbt)
-
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
 
@@ -32,6 +34,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-
 ### NOTE
+
 Resume template borrowed from [startbootstrap-resume](https://github.com/BlackrockDigital/startbootstrap-resume)

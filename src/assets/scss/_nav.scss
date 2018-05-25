@@ -4,11 +4,17 @@
     font-weight: 600;
     text-transform: uppercase;
   }
+  .nav-item{
+    -webkit-transition: all 0.3s ease 0s;
+    .fa {
+      margin-right: 5px;
+    }
+  }
 }
 
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
+    text-align: right;
     position: fixed;
     top: 0;
     left: 0;
@@ -40,6 +46,7 @@
         flex-direction: column;
 
         width: 100%;
+        padding-right: 40px;
         .nav-item {
           display: block;
           .nav-link {
