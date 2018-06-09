@@ -1,6 +1,8 @@
 # About Me (built with Angular Bootstrap)
 
-This project is About Me(self-introduction) angular + bootstrap application.
+![building status](https://api.travis-ci.org/vandbt/about-me.svg)
+
+This project is About Me(self-introduction) angular v5 + bootstrap application.
 
 ![about me cover](https://github.com/vandbt/about-me/blob/master/about-me-cover.png)
 
