@@ -3,37 +3,21 @@ import { InMemoryDbService } from "angular-in-memory-web-api";
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const skills = [
-      { name: "Typescript, Javascript, HTML5, CSS, C#.NET", level: 100 },
-      { name: "Angular, AngularJS, jQuery, gulp", level: 100 },
-      { name: "Node, Express, ASP.NET, PHP, AWS", level: 100 },
-      {
-        name: "MongoDB, MS SQL Server, Entity Framework, DB 모델링",
-        level: 100
-      },
-      {
-        name:
-          "git, gerrit, Bitbucket, SVN, CI (Travis CI, Jenkins), Docker, Elasticsearch",
-        level: 100
-      },
-      { name: "CodeBeamer ALM, Jira, Confluence, Redmine", level: 100 }
-    ];
+      { name: 'Typescript, Javascript, HTML5, CSS,Angular, AngularJS, jQuery, gulp', level: 100 },
+      { name: 'Node.js, Express, C#, ASP.NET MVC, AWS', level: 100 },
+      { name: 'MongoDB, MS SQL Server, Entity Framework, LINQ, Database modeling', level: 100 },
+      { name: 'Git, Bitbucket, SVN, CI (Travis CI, Jenkins), Docker, Elasticsearch', level: 100 },
+      { name: 'CodeBeamer ALM, Jira, Confluence, Redmine', level: 100 }
+  ];
 
     const knowledges = [
-      {
-        name:
-          "비즈니스 도메인 분석, 아키텍처 설계, 어플리케이션 프레임워크 설계 능력",
-        level: 100
-      },
-      {
-        name: "TDD, BDD, OOP, 도메인드리븐디자인, 엔터프라이즈 아키텍처 설계",
-        level: 100
-      },
-      {
-        name: "소셜네트워크, 웹서비스, 온라인-커머스, 지식 정보 서비스 기반 지식",
-        level: 100
-      },
-      { name: "Agile Development", level: 100 }
-    ];
+      { name: 'Expert in Front-end web development.', level: 100 },
+      { name: 'Expert in server-side web development stack: C#, ASP.NET MVC, SQL Server', level: 100 },
+      { name: 'Having Strong knowledge of OO design and implementation.', level: 100 },
+      { name: 'Experienced with Entity Framework + LINQ', level: 100 },
+      { name: 'Experienced : WCF, RESTful Web Services, Web Protocols.', level: 100 },
+      { name: 'Experienced with Agile methodology', level: 100 }
+  ];
     return { skills, knowledges };
   }
 }
